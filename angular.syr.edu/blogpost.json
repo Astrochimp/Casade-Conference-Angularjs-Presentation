@@ -1,0 +1,47 @@
+
+            { "blogposts": [{
+        "path" : "/blog/stop-trying-to-force-startups",
+        "title" : "Stop Trying To Force The Startup Life On Everyone (It Is Not For Everyone)",
+        "author" : "Marcello",
+        "twitter" : "@mprattico",        
+        "preview" : "Last week I saw a tweet put out by a startup founder that was along the lines of disappointment that a bright developer chose to become a engineer at a bank rather than at a startup. While I understand the reasoning behind this person and others wanting more developer talent in the startup scene, I think it&#8217;s time we stop trying to force the startup life on everyone. IT IS NOT FOR EVERYONE.",        
+        "fullpost" : "Last week I saw a tweet put out by a startup founder that was along the lines of disappointment that a bright developer chose to become a engineer at a bank rather than at a startup. While I understand the reasoning behind this person and others wanting more developer talent in the startup scene, I think it&#8217;s time we stop trying to force the startup life on everyone. IT IS NOT FOR EVERYONE. Working at a startup is not a walk in the park. It is a lot of hard work. Some people don&#8217;t want the uncertainty of needing to look for a job every 2-4 years (remember, not everyone jumps on a rocket ship). Personally, I have probably lost a few years of my life from the stress and anxiety of working at early-stage companies. I go through months of not being able to sleep and having other ailments from putting 110% of myself into my work. It takes a unique makeup for someone to want to do startups. It also takes a special makeup to succeed in the startup game (yes, it is a game). Shaming on people because they have a skill and want to go in a different direction with their life is not fair. They may have school loans to pay back, maybe they are expecting a child soon and need stable employment, maybe it is something else. Whatever the case may be, make sure to educate the person about the opportunities that comes with a startup, but leave it at that. One thing that is not spoken about in the early-stage tech world is how many startup founders come from money or stability. I&#8217;m by no means saying this applies to all founders or early-stage startup employees. But if you dig a little, you will see the &#8220;risk&#8221; that some of these people are taking is not as risky as they may seem (to be explicitly clear: the founders/early-stage employees ARE NOT saying or making it out that they are doing something risky, it&#8217;s more of the media and press around startups in general). Usually the worst-case scenario is the founder loses their investors&#8217; money, feels a bit embarrassed and moves back into their parents&#8217; comfortable house/apartment for a short time to plot what is next. I&#8217;m even talking about myself. I grew up in NYC on the Upper West Side. If I lost my job, and ran out of cash, My wife and I could live in my parents&#8217; or inlaws&#8217; apartment/house until I got back on my feet (I&#8217;m hoping it never comes to this, Mom!). I&#8217;m lucky. Most people are not.&#160;These are the people with talents that would rather go to a bank/hedge fund, big co or some other place that will, short-term, pay the most money for their skills. They need some living + breathing room. Anyways, this was a bit of a detour, but I think it would make a great long-read on one of the tech blogs. The story being, the truth about how &#8220;risky&#8221; startups are and how a majority of founders come from means. And I mean all of this in the nicest way. I don&#8217;t think people should be hated on just because they come from means. It is what they do with it and the name they make for themselves that matters. So bottom line: While it is entirely fine to educate people that the startup life is a great career, by no means should we be &#8220;hating&#8221; on people who decide that this is not the lifestyle they want. It&#8217;s not for everyone.",        
+        "pic" : "/images/les-portes.jpg"        
+        }, 
+            {
+        "path" : "/blog/angular-filters",
+        "title" : "Angular Filters",
+        "author" : "Marcello Prattico",
+        "twitter" : "@mprattico",        
+        "preview" : "Angular provides a set of filters.",        
+        "fullpost" : "",        
+        "pic" : "/images/Gutman_Karakul_lake.jpg"        
+        }, 
+            {
+        "path" : "/blog/switchable-grid",
+        "title" : "Switchable Grid",
+        "author" : "Marcello Prattico",
+        "twitter" : "@mprattico",        
+        "preview" : "Use Angular to show a switchable grid list.",        
+        "fullpost" : "Angular.js can allow you to do awesome front end effects with a fraction of the code. http://tutorialzine.com/2013/08/learn-angularjs-5-examples/",        
+        "pic" : "/images/tuscany.jpg"        
+        }, 
+            {
+        "path" : "/blog/using-directives-in-angular.js",
+        "title" : "Using Directives in Angular.js",
+        "author" : "Marcello Prattico",
+        "twitter" : "@mprattico",        
+        "preview" : "Directives are a way to teach HTML new tricks. During DOM compilation directives are matched against the HTML and executed. This allows directives to register behavior, or transform the DOM. Angular comes with a built in set of directives which are useful for building web applications but can be extended such that HTML can be turned into a declarative domain specific language (DSL).",        
+        "fullpost" : "Find out more&#160;http://docs.angularjs.org/guide/directive",        
+        "pic" : "/images/green-bike.jpg"        
+        }, 
+            {
+        "path" : "/blog/siri-as-a-service",
+        "title" : "Siri as a service",
+        "author" : "",
+        "twitter" : "@",        
+        "preview" : "Siri as a service for hackers.",        
+        "fullpost" : "In the era of Siri, there are situations where your users expect a hands-free interface: while they drive, work out, wear Google Glass or the new generation of smart devices. However for us developers, voice interfaces often mean frustration and bad UX. Today, with the combination of the best voice-to-text engines and Wit, you can finally bring the power of voice to your app.",        
+        "pic" : "/images/siri.jpg"        
+        }], 
+            "bogus": "<pass-through></pass-through> " } 

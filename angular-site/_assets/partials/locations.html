@@ -1,0 +1,12 @@
+<h1>Locations</h1>
+
+<label>Filter:</label>
+<input type="text" data-ng-model="locfilter" placeholder="Filter locations">
+<hr>
+
+<ul>
+    <li data-ng-repeat="locations in locationlist | filter:locfilter"><h2>{{ locations.location[0].name }}</h2>
+        {{ locations.location[0].maplocation }}
+        {{ locations.location[0].lat }} {{ locations.location[0].longitude }}
+    </li>
+</ul>

@@ -1,0 +1,240 @@
+.bs-docs-social {
+    margin-top: 1em;
+    padding: 15px 0;
+    text-align: center;
+    background-color: rgba(245,245,245,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(221,221,221,0.3);
+}
+.bs-docs-social-buttons {
+  position: absolute;
+  top: 8px;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.bs-docs-social-buttons li {
+    list-style: none;
+    display: inline-block;
+    line-height: 1;
+}
+
+
+nav.home a.home,
+nav.menu a.menu,
+nav.location a.location,
+nav.about, a.about
+nav.contact  a.contact {
+    display:block;
+    color:#f90;
+    background-color:#e35885;
+}
+
+.pagetitle {
+    color:#f90;
+}
+
+ul.location {
+
+    list-style: none;
+
+
+}
+
+
+.bar{
+    background-color:#5c9bb7;
+
+    background-image:-webkit-linear-gradient(top, #5c9bb7, #5392ad);
+    background-image:-moz-linear-gradient(top, #5c9bb7, #5392ad);
+    background-image:linear-gradient(top, #5c9bb7, #5392ad);
+
+    box-shadow: 0 1px 1px #ccc;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+    margin: 45px auto 25px;
+    position:relative;
+    text-align:right;
+    line-height: 1;
+}
+
+.bar a {
+    background:#4987a1 center center no-repeat;
+    width:32px;
+    height:32px;
+    display:inline-block;
+    text-decoration:none !important;
+    margin-right:5px;
+    border-radius:2px;
+    cursor:pointer;
+    text-indent:-999px;
+    overflow:hidden;
+}
+
+.bar a.active{
+    background-color:#c14694;
+}
+
+.bar a.list-icon{
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkYzNkFCQ0ZBMTBCRTExRTM5NDk4RDFEM0E5RkQ1NEZCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkYzNkFCQ0ZCMTBCRTExRTM5NDk4RDFEM0E5RkQ1NEZCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RjM2QUJDRjgxMEJFMTFFMzk0OThEMUQzQTlGRDU0RkIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RjM2QUJDRjkxMEJFMTFFMzk0OThEMUQzQTlGRDU0RkIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7h1bLqAAAAWUlEQVR42mL8////BwYGBn4GCACxBRlIAIxAA/4jaXoPEkMyjJ+A/g9MDJQBRhYg8RFqMwg8RJIUINYLFDmBUi+ADQAF1n8ofk9yIAy6WPg4GgtDMRYAAgwAdLYwLAoIwPgAAAAASUVORK5CYII=);
+}
+
+.bar a.grid-icon{
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjBEQkMyQzE0MTBCRjExRTNBMDlGRTYyOTlBNDdCN0I4IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjBEQkMyQzE1MTBCRjExRTNBMDlGRTYyOTlBNDdCN0I4Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MERCQzJDMTIxMEJGMTFFM0EwOUZFNjI5OUE0N0I3QjgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MERCQzJDMTMxMEJGMTFFM0EwOUZFNjI5OUE0N0I3QjgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4MjPshAAAAXklEQVR42mL4////h/8I8B6IGaCYKHFGEMnAwCDIAAHvgZgRyiZKnImBQsACxB+hNoDAQyQ5osQZIT4gH1DsBZABH6AB8x/JaQzEig++WPiII7Rxio/GwmCIBYAAAwAwVIzMp1R0aQAAAABJRU5ErkJggg==);
+}
+
+.bar input{
+    background:#fff no-repeat 13px 13px;
+
+    border: none;
+    width: 100%;
+    line-height: 19px;
+    padding: 11px 0;
+
+    border-radius: 2px;
+    box-shadow: 0 2px 8px #c4c4c4 inset;
+    text-align: left;
+    font-size: 14px;
+    font-family: inherit;
+    color: #738289;
+    font-weight: bold;
+    outline: none;
+    text-indent: 40px;
+}
+
+ul.grid {
+    list-style: none;
+}
+
+ul.grid li {
+    float:left;
+    margin:20px;
+    padding:0px;
+    background:#000000;
+    width:220px;
+    height:220px;
+    overflow:hidden;
+    border-radius: 5px;
+    position: relative;
+}
+
+ul.grid li img {
+    width:500px;
+}
+
+
+.blogcontentwrap {
+
+    width:1140px;
+    height:auto;
+    margin:0px;
+    padding:90px;
+
+}
+
+.blogcontent {
+
+    width:600px;
+    margin:0px auto 0px auto;
+    padding:10px;
+    color:#ffffff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.grid .blogtitle {
+
+    position: absolute;
+
+    left:10px;
+    top:20px;
+    margin:0px 0px 0px 0px;
+    padding:20px;
+    color:#ffffff;
+    text-shadow: 0px 0px 4px #000;
+    font-size:32px;
+    line-height: 1.1em;
+
+}
+
+.blogtitle a {
+    color:#ffffff;
+}
+
+.blogtitle a:hover {
+    color:#ff9900;
+
+    text-decoration: none;
+}
+
+li.listview {
+    list-style: none;
+    margin:10px 0px 20px 0px;
+    padding:20px;
+}
+
+.listview {
+    width:90%;
+    border-bottom:1px solid #c0c0c0;
+}
+
+.listview img {
+    float:left;
+    margin:10px 20px 10px 0px;
+    padding:0px;
+    width:200px;
+}
+
+ul.menuitem {
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    float:left;
+}
+
+.menuitem li {
+    list-style: none;
+    margin:5px 0px 10px 0px;
+    padding:10px;
+    border-right:1px solid #222222;
+    border-bottom:1px solid #222222;
+    background:#eeeeee;
+    width:350px;
+}
+
+.menuitem li:hover {
+    background:#ff9900;
+
+}
+
+.menuitem li label {
+    display:block;
+    width:100%;
+    margin:0px;
+    padding:5px;
+}
+
+.foodprice {
+    font-size:19px;
+    color:#009926;
+    float:right;
+    width:120px;
+    text-align: right;
+}
+
+#total {
+    float:left;
+    width:350px;
+    font-size:24px;
+    padding:20px;
+    margin:5px 5px 10px 20px;
+    background:#009926;
+    color:#ffffff;
+}
+
+#total span {
+    font-weight:bold;
+    font-size: 56px;
+    color:#ffffff;
+}

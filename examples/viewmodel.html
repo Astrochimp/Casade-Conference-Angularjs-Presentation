@@ -1,0 +1,50 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <script src="http://code.angularjs.org/angular-1.0.0rc10.min.js"></script>
+    <link href="css/ex.css" rel="stylesheet"/>
+</head>
+<body>
+
+<h1>Marcello's Cafe</h1>
+
+
+<div class="container" data-ng-controller="menuCtrl">
+    <h3>Today's Menu</h3>
+
+    <label>Filter:</label>
+    <input type="text" data-ng-model="foodname" placeholder="Filter the menu">
+    <hr>
+
+    <ul>
+        <li data-ng-repeat="food in fooditems | filter: foodname">{{ food.food | uppercase }} - {{ food.price | currency }}</li>
+    </ul>
+
+
+</div>
+
+
+
+
+<script>
+
+
+    function menuCtrl($scope) {
+
+        $scope.fooditems=[{ food: 'espresso', price: 3.00},
+            { food: 'cappuccino', price: 3.95},
+            { food: 'macchiato', price: 2.50},
+            { food: 'americano', price: 2.50},
+            { food: 'mocha', price: 4.00},
+            { food: 'latte', price: 3.50},
+            { food: 'double frap mocha latte with soy', price: 6.00},
+            { food: 'scone' , price: 4.50}];
+
+    }
+
+
+</script>
+
+
+</body>
+</html>

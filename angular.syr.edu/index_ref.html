@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="cafeApp">
+    <head>
+        <title>Angular.js Demo site</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link rel="stylesheet" href="_assets/css/style.css">
+        <link rel="stylesheet" href="_assets/css/bootstrap.css">
+        <link rel="stylesheet" href="_assets/css/justified-nav.css">
+     </head>
+
+<body>
+
+<div class="container">
+
+
+    <div class="masthead">
+        <h3 class="text-muted">Marcello's Cafe</h3>
+        <ul class="nav nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#locations">Location</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <div ng-view="" class="clearfix" id="maincontainer">
+
+
+    </div>
+
+
+
+    <!-- Site footer -->
+    <div class="footer">
+        <p>&copy; Company 2013</p>
+    </div>
+
+
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/0.7.2/angular-strap.min.js"></script>
+<script src="_assets/app/app.js"></script>
+<script src="_assets/app/controllers.js"></script>
+
+</body>
+</html>

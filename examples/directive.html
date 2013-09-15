@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <script src="http://code.angularjs.org/angular-1.0.0rc10.min.js"></script>
+    <link href="css/ex.css" rel="stylesheet"/>
+</head>
+<body>
+<div>
+    <p>
+        <label>Name:</label>
+        <input type="text" ng-model="yourName" placeholder="Enter a name here">
+        <hr>
+        <h1>Hello, {{yourName}}!</h1>
+
+    </p>
+
+
+    <p>
+        <label>Message:</label>
+        <input type="text" ng-model="message" placeholder="Enter your message">
+        <hr>
+        <h1>{{ message }}</h1>
+    </p>
+
+</div>
+</body>
+</html>

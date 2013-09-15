@@ -1,0 +1,4 @@
+
+            ({"menuitems": [{"menuitem": [{"name": "Espresso", "price": "2.00"}]}, {"menuitem": [{"name": "Cappucino", "price": "3.50"}]}, {"menuitem": [{"name": "Macchiato", "price": "3.25"}]}, {"menuitem": [{"name": "Latte", "price": "4.00"}]}, {"menuitem": [{"name": "Frap Double Soy", "price": "$6.00"}]}], 
+            "bogus": "
+        <pass-through></pass-through>

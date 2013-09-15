@@ -1,0 +1,3 @@
+
+            {"fooditems": [{"food": "Espresso", "price": 2.00}, {"food": "Cake Pop", "price": 1.75}, {"food": "Blueberry Scone", "price": 3.00}, {"food": "Americano", "price": 2.50}, {"food": "Mocha", "price": 3.75}, {"food": "Cappucino", "price": 3.50}, {"food": "Macchiato", "price": 3.25}, {"food": "Latte", "price": 4.00}, {"food": "Frap Double Soy", "price": 6.00}], 
+            "bogus": "<pass-through></pass-through> " } 

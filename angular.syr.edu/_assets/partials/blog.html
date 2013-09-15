@@ -1,0 +1,17 @@
+
+<div class="blogcontentwrap"
+        style="background:url({{ bloginfo.pic }}) center top no-repeat;">
+
+    <div class="blogcontent">
+
+
+    <h2>{{ bloginfo.title }}</h2>
+    {{ bloginfo.author }}
+    {{ bloginfo.twitter }}
+    <div ng-bind-html-unsafe="bloginfo.fullpost">
+
+    </div>
+
+    </div>
+
+</div>

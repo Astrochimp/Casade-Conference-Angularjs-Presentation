@@ -1,0 +1,9 @@
+<h3>Today's Menu</h3>
+
+<label>Filter:</label>
+<input type="text" data-ng-model="foodname" placeholder="Filter the menu">
+<hr>
+
+<ul>
+    <li data-ng-repeat="food in fooditems | filter: foodname">{{ food.food | capitalize }} - {{ food.price | currency }}</li>
+</ul>

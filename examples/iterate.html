@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <script src="http://code.angularjs.org/angular-1.0.0rc10.min.js"></script>
+    <link href="css/ex.css" rel="stylesheet"/>
+</head>
+<body
+        data-ng-init="fooditems=['espresso','cappuccino','macchiato','americano','mocha','latte','double frap mocha latte with soy', 'scone']">
+<div>
+
+    <h1>Marcello's Cafe</h1>
+
+    <p>
+
+        <ul>
+            <li data-ng-repeat="foodName in fooditems">{{ foodName }}</li>
+        </ul>
+
+<!--
+
+        <ul>
+            <li data-ng-repeat="foodName in fooditems">{{ foodName | uppercase }}</li>
+        </ul>
+
+-->
+    </p>
+
+</div>
+</body>
+</html>

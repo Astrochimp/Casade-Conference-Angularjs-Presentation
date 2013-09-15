@@ -1,0 +1,26 @@
+<h3>Today's Menu</h3>
+
+<label>Filter:</label>
+<input type="text" data-ng-model="foodname" placeholder="Filter the menu">
+<hr>
+<form id="main">
+
+    <ul class="menuitem">
+        <li data-ng-repeat="food in fooditems | filter: foodname">
+            <label>
+                <input type="checkbox" ng-model="food.selected" value="1" name="{{ food.food }}" />
+                {{ food.food | capitalize }}
+                <span class="foodprice">
+                    {{ food.price | currency }}
+                </span>
+            </label>
+        </li>
+    </ul>
+
+    <input type="submit" id="order" value="Order"/>
+
+    <p id="total">Order Total: <span>{{ total() | currency }}</span></p>
+
+
+
+</form>
