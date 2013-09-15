@@ -1,26 +1,52 @@
 <!doctype html>
-<html ng-app>
+<html>
 <head>
     <script src="http://code.angularjs.org/angular-1.0.0rc10.min.js"></script>
     <link href="css/ex.css" rel="stylesheet"/>
 </head>
 <body>
-<div>
+<div ng-app="testApp">
+    <h2>Directives</h2>
+    <p>Bring back the blink tag!</p>
     <p>
-        <label>Name:</label>
-        <input type="text" ng-model="yourName" placeholder="Enter a name here">
-        <hr>
-        <h1>Hello, {{yourName}}!</h1>
 
+        <blink></blink>
+
+
+        <helpme></helpme>
     </p>
 
 
-    <p>
-        <label>Message:</label>
-        <input type="text" ng-model="message" placeholder="Enter your message">
-        <hr>
-        <h1>{{ message }}</h1>
-    </p>
+<script>
+
+
+    var testApp = angular.module('testApp', []);
+
+    testApp.directive('blink', function() {
+        return {
+            restrict: 'E',
+            template: '<marquee scrollamount="100%">Blink!</marquee>'
+        };
+    });
+
+
+    testApp.directive('helpme', function() {
+        return {
+            restrict: 'E',
+            transclude: false,
+            templateUrl: 'blink.html',
+            link: function(scope, element, attrs) {
+
+                scope.edit = function() {
+                    alert("Hello There");
+                };
+            }
+        };
+    });
+
+
+</script>
+
 
 </div>
 </body>
