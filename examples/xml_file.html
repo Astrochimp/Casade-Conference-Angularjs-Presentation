@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" ng-app="blogs">
+<head>
+    <title>Blogs</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+    <script src="js/angular-xml.min.js"></script>
+    <script src="js/blogs.js"></script>
+
+    <link href="css/ex.css" rel="stylesheet"/>
+</head>
+<body ng-controller="BlogsCtrl">
+
+<h2>Let's try getting XML Data!</h2>
+
+
+<ul>
+    <li ng-repeat="menu in menus">
+        {{ menu.name }}
+        {{ menu.price | currency }}
+    </li>
+</ul>
+</body>
+</html>

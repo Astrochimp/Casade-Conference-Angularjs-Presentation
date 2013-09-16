@@ -4,7 +4,7 @@
     <list default="true" id="2a2028d6-7e63-416e-963d-e5729f9bc25b" name="Default" comment="" />
     <ignored path="CASCADE_PRESENTATION.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379100380229" ignored="false" />
+    <file path="/index.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379356691144" ignored="false" />
     <file path="/iterate.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379100309420" ignored="false" />
     <file path="/filter.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1377024039895" ignored="false" />
     <file path="/viewmodel.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379097939499" ignored="false" />
@@ -44,8 +44,10 @@
     <file path="/menu.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379080225792" ignored="false" />
     <file path="/ex.css" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379104978786" ignored="false" />
     <file path="/databinding.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379096152661" ignored="false" />
-    <file path="/directive.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379104656891" ignored="false" />
+    <file path="/directive.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379361068159" ignored="false" />
     <file path="/blink.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379104949483" ignored="false" />
+    <file path="/xml_file.html" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379354735637" ignored="false" />
+    <file path="/blogs.js" changelist="2a2028d6-7e63-416e-963d-e5729f9bc25b" time="1379354576349" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,28 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/partials/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="52" selection-start="666" selection-end="666" vertical-scroll-proportion="-13.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="locations.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/partials/locations.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="698" selection-end="698" vertical-scroll-proportion="-13.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="databinding.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/databinding.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="241" selection-end="241" vertical-scroll-proportion="-6.25">
+            <state line="16" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -95,7 +79,7 @@
       <file leaf-file-name="directive.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/directive.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="38" selection-start="725" selection-end="725" vertical-scroll-proportion="-14.291667">
+            <state line="18" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -110,19 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ex.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/css/ex.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="282" selection-end="282" vertical-scroll-proportion="0.40889525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="447" selection-end="447" vertical-scroll-proportion="-8.75">
+            <state line="19" column="18" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,25 +106,52 @@
       <file leaf-file-name="iterate.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/iterate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="594" selection-end="594" vertical-scroll-proportion="-14.833333">
+            <state line="24" column="3" selection-start="594" selection-end="594" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/app/controllers.js">
+      <file leaf-file-name="xml_file.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/xml_file.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/app/app.js">
+      <file leaf-file-name="blogs.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/js/blogs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+            <state line="10" column="23" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/filter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="6" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-17.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="locations.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/partials/locations.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="19" selection-start="698" selection-end="698" vertical-scroll-proportion="0.44576523">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="5" selection-start="757" selection-end="757" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -165,8 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/angular.syr.edu/_assets/partials/blog.html" />
-        <option value="$PROJECT_DIR$/angular.syr.edu/_assets/partials/bloglist.html" />
         <option value="$PROJECT_DIR$/angular.syr.edu/_assets/partials/locations.html" />
         <option value="$PROJECT_DIR$/angular.syr.edu/_assets/partials/intro.html" />
         <option value="$PROJECT_DIR$/angular.syr.edu/_assets/partials/menu.html" />
@@ -177,10 +177,12 @@
         <option value="$PROJECT_DIR$/examples/viewmodel.html" />
         <option value="$PROJECT_DIR$/angular.syr.edu/_assets/app/controllers.js" />
         <option value="$PROJECT_DIR$/examples/iterate.html" />
-        <option value="$PROJECT_DIR$/examples/index.html" />
-        <option value="$PROJECT_DIR$/examples/directive.html" />
         <option value="$PROJECT_DIR$/examples/blink.html" />
         <option value="$PROJECT_DIR$/examples/css/ex.css" />
+        <option value="$PROJECT_DIR$/examples/xml_file.html" />
+        <option value="$PROJECT_DIR$/examples/js/blogs.js" />
+        <option value="$PROJECT_DIR$/examples/index.html" />
+        <option value="$PROJECT_DIR$/examples/directive.html" />
       </list>
     </option>
   </component>
@@ -244,6 +246,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CASCADE_PRESENTATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CASCADE_PRESENTATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,6 +378,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/js" />
       <recent name="$PROJECT_DIR$/examples" />
       <recent name="$PROJECT_DIR$/angular-site/_assets/css" />
     </key>
@@ -478,37 +499,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="18" selection-start="6188" selection-end="6188" vertical-scroll-proportion="1.6207547">
-          <folding>
-            <element signature="e#1502#2857#2" expanded="true" />
-            <element signature="e#2901#4264#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/filter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="162" selection-end="162" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/viewmodel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="607" selection-end="607" vertical-scroll-proportion="-20.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/modules.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="33" selection-end="33" vertical-scroll-proportion="3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/partials/bloglist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.0416665">
@@ -523,37 +513,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/partials/locations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="698" selection-end="698" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/partials/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="52" selection-start="666" selection-end="666" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/iterate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="594" selection-end="594" vertical-scroll-proportion="-14.833333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/databinding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="241" selection-end="241" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="447" selection-end="447" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
@@ -572,9 +534,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/css/ex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/xml_file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/js/blogs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="757" selection-end="757" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/databinding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/iterate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="3" selection-start="594" selection-end="594" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/directive.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="38" selection-start="725" selection-end="725" vertical-scroll-proportion="-14.291667">
+        <state line="18" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="-11.25">
           <folding />
         </state>
       </provider>
@@ -586,9 +590,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/css/ex.css">
+    <entry file="file://$PROJECT_DIR$/examples/js/menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="282" selection-end="282" vertical-scroll-proportion="0.40889525">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="6" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular.syr.edu/_assets/partials/locations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="698" selection-end="698" vertical-scroll-proportion="0.44576523">
           <folding />
         </state>
       </provider>
